@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782114C0244D9CCE005967EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114BF244D9CCE005967EF /* AppDelegate.m */; };
+		782114C3244D9CCE005967EF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114C2244D9CCE005967EF /* SceneDelegate.m */; };
+		782114C6244D9CCE005967EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114C5244D9CCE005967EF /* ViewController.m */; };
+		782114C9244D9CCE005967EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782114C7244D9CCE005967EF /* Main.storyboard */; };
+		782114CB244D9CD5005967EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782114CA244D9CD5005967EF /* Assets.xcassets */; };
+		782114CE244D9CD5005967EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782114CC244D9CD5005967EF /* LaunchScreen.storyboard */; };
+		782114D1244D9CD5005967EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114D0244D9CD5005967EF /* main.m */; };
+		782114DB244D9CD5005967EF /* LRCameraProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114DA244D9CD5005967EF /* LRCameraProTests.m */; };
+		782114E6244D9CD5005967EF /* LRCameraProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114E5244D9CD5005967EF /* LRCameraProUITests.m */; };
+		782114F6244D9E7A005967EF /* PickerProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114F5244D9E7A005967EF /* PickerProViewController.m */; };
+		782114FC2450180D005967EF /* LRAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 782114FB2450180C005967EF /* LRAsset.m */; };
+		7821150224501C75005967EF /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7821150124501C75005967EF /* NSData+MD5.m */; };
+		7821150524501DE8005967EF /* LRAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 7821150424501DE8005967EF /* LRAssets.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782114D7244D9CD5005967EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782114B3244D9CCE005967EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782114BA244D9CCE005967EF;
+			remoteInfo = LRCameraPro;
+		};
+		782114E2244D9CD5005967EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782114B3244D9CCE005967EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782114BA244D9CCE005967EF;
+			remoteInfo = LRCameraPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782114BB244D9CCE005967EF /* LRCameraPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRCameraPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782114BE244D9CCE005967EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		782114BF244D9CCE005967EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		782114C1244D9CCE005967EF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		782114C2244D9CCE005967EF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		782114C4244D9CCE005967EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		782114C5244D9CCE005967EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		782114C8244D9CCE005967EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782114CA244D9CD5005967EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782114CD244D9CD5005967EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782114CF244D9CD5005967EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782114D0244D9CD5005967EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		782114D6244D9CD5005967EF /* LRCameraProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRCameraProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782114DA244D9CD5005967EF /* LRCameraProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCameraProTests.m; sourceTree = "<group>"; };
+		782114DC244D9CD5005967EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782114E1244D9CD5005967EF /* LRCameraProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRCameraProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782114E5244D9CD5005967EF /* LRCameraProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCameraProUITests.m; sourceTree = "<group>"; };
+		782114E7244D9CD5005967EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782114F4244D9E7A005967EF /* PickerProViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerProViewController.h; sourceTree = "<group>"; };
+		782114F5244D9E7A005967EF /* PickerProViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerProViewController.m; sourceTree = "<group>"; };
+		782114FA2450180C005967EF /* LRAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRAsset.h; sourceTree = "<group>"; };
+		782114FB2450180C005967EF /* LRAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRAsset.m; sourceTree = "<group>"; };
+		7821150024501C75005967EF /* NSData+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		7821150124501C75005967EF /* NSData+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		7821150324501DE8005967EF /* LRAssets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRAssets.h; sourceTree = "<group>"; };
+		7821150424501DE8005967EF /* LRAssets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRAssets.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782114B8244D9CCE005967EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782114D3244D9CD5005967EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782114DE244D9CD5005967EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782114B2244D9CCE005967EF = {
+			isa = PBXGroup;
+			children = (
+				782114BD244D9CCE005967EF /* LRCameraPro */,
+				782114D9244D9CD5005967EF /* LRCameraProTests */,
+				782114E4244D9CD5005967EF /* LRCameraProUITests */,
+				782114BC244D9CCE005967EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782114BC244D9CCE005967EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782114BB244D9CCE005967EF /* LRCameraPro.app */,
+				782114D6244D9CD5005967EF /* LRCameraProTests.xctest */,
+				782114E1244D9CD5005967EF /* LRCameraProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782114BD244D9CCE005967EF /* LRCameraPro */ = {
+			isa = PBXGroup;
+			children = (
+				782114F3244D9E58005967EF /* CameraPro */,
+				782114BE244D9CCE005967EF /* AppDelegate.h */,
+				782114BF244D9CCE005967EF /* AppDelegate.m */,
+				782114C1244D9CCE005967EF /* SceneDelegate.h */,
+				782114C2244D9CCE005967EF /* SceneDelegate.m */,
+				782114C4244D9CCE005967EF /* ViewController.h */,
+				782114C5244D9CCE005967EF /* ViewController.m */,
+				782114C7244D9CCE005967EF /* Main.storyboard */,
+				782114CA244D9CD5005967EF /* Assets.xcassets */,
+				782114CC244D9CD5005967EF /* LaunchScreen.storyboard */,
+				782114CF244D9CD5005967EF /* Info.plist */,
+				782114D0244D9CD5005967EF /* main.m */,
+			);
+			path = LRCameraPro;
+			sourceTree = "<group>";
+		};
+		782114D9244D9CD5005967EF /* LRCameraProTests */ = {
+			isa = PBXGroup;
+			children = (
+				782114DA244D9CD5005967EF /* LRCameraProTests.m */,
+				782114DC244D9CD5005967EF /* Info.plist */,
+			);
+			path = LRCameraProTests;
+			sourceTree = "<group>";
+		};
+		782114E4244D9CD5005967EF /* LRCameraProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782114E5244D9CD5005967EF /* LRCameraProUITests.m */,
+				782114E7244D9CD5005967EF /* Info.plist */,
+			);
+			path = LRCameraProUITests;
+			sourceTree = "<group>";
+		};
+		782114F3244D9E58005967EF /* CameraPro */ = {
+			isa = PBXGroup;
+			children = (
+				782114F4244D9E7A005967EF /* PickerProViewController.h */,
+				782114F5244D9E7A005967EF /* PickerProViewController.m */,
+				782114FA2450180C005967EF /* LRAsset.h */,
+				782114FB2450180C005967EF /* LRAsset.m */,
+				7821150024501C75005967EF /* NSData+MD5.h */,
+				7821150124501C75005967EF /* NSData+MD5.m */,
+				7821150324501DE8005967EF /* LRAssets.h */,
+				7821150424501DE8005967EF /* LRAssets.m */,
+			);
+			path = CameraPro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782114BA244D9CCE005967EF /* LRCameraPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782114EA244D9CD5005967EF /* Build configuration list for PBXNativeTarget "LRCameraPro" */;
+			buildPhases = (
+				782114B7244D9CCE005967EF /* Sources */,
+				782114B8244D9CCE005967EF /* Frameworks */,
+				782114B9244D9CCE005967EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRCameraPro;
+			productName = LRCameraPro;
+			productReference = 782114BB244D9CCE005967EF /* LRCameraPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782114D5244D9CD5005967EF /* LRCameraProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782114ED244D9CD5005967EF /* Build configuration list for PBXNativeTarget "LRCameraProTests" */;
+			buildPhases = (
+				782114D2244D9CD5005967EF /* Sources */,
+				782114D3244D9CD5005967EF /* Frameworks */,
+				782114D4244D9CD5005967EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782114D8244D9CD5005967EF /* PBXTargetDependency */,
+			);
+			name = LRCameraProTests;
+			productName = LRCameraProTests;
+			productReference = 782114D6244D9CD5005967EF /* LRCameraProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782114E0244D9CD5005967EF /* LRCameraProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782114F0244D9CD5005967EF /* Build configuration list for PBXNativeTarget "LRCameraProUITests" */;
+			buildPhases = (
+				782114DD244D9CD5005967EF /* Sources */,
+				782114DE244D9CD5005967EF /* Frameworks */,
+				782114DF244D9CD5005967EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782114E3244D9CD5005967EF /* PBXTargetDependency */,
+			);
+			name = LRCameraProUITests;
+			productName = LRCameraProUITests;
+			productReference = 782114E1244D9CD5005967EF /* LRCameraProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782114B3244D9CCE005967EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = wangxu;
+				TargetAttributes = {
+					782114BA244D9CCE005967EF = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					782114D5244D9CD5005967EF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 782114BA244D9CCE005967EF;
+					};
+					782114E0244D9CD5005967EF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 782114BA244D9CCE005967EF;
+					};
+				};
+			};
+			buildConfigurationList = 782114B6244D9CCE005967EF /* Build configuration list for PBXProject "LRCameraPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782114B2244D9CCE005967EF;
+			productRefGroup = 782114BC244D9CCE005967EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782114BA244D9CCE005967EF /* LRCameraPro */,
+				782114D5244D9CD5005967EF /* LRCameraProTests */,
+				782114E0244D9CD5005967EF /* LRCameraProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782114B9244D9CCE005967EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782114CE244D9CD5005967EF /* LaunchScreen.storyboard in Resources */,
+				782114CB244D9CD5005967EF /* Assets.xcassets in Resources */,
+				782114C9244D9CCE005967EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782114D4244D9CD5005967EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782114DF244D9CD5005967EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782114B7244D9CCE005967EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782114FC2450180D005967EF /* LRAsset.m in Sources */,
+				7821150224501C75005967EF /* NSData+MD5.m in Sources */,
+				782114F6244D9E7A005967EF /* PickerProViewController.m in Sources */,
+				782114C6244D9CCE005967EF /* ViewController.m in Sources */,
+				782114C0244D9CCE005967EF /* AppDelegate.m in Sources */,
+				782114D1244D9CD5005967EF /* main.m in Sources */,
+				7821150524501DE8005967EF /* LRAssets.m in Sources */,
+				782114C3244D9CCE005967EF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782114D2244D9CD5005967EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782114DB244D9CD5005967EF /* LRCameraProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782114DD244D9CD5005967EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782114E6244D9CD5005967EF /* LRCameraProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782114D8244D9CD5005967EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782114BA244D9CCE005967EF /* LRCameraPro */;
+			targetProxy = 782114D7244D9CD5005967EF /* PBXContainerItemProxy */;
+		};
+		782114E3244D9CD5005967EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782114BA244D9CCE005967EF /* LRCameraPro */;
+			targetProxy = 782114E2244D9CD5005967EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782114C7244D9CCE005967EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782114C8244D9CCE005967EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		782114CC244D9CD5005967EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782114CD244D9CD5005967EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782114E8244D9CD5005967EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		782114E9244D9CD5005967EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782114EB244D9CD5005967EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RC3NK7EXM;
+				INFOPLIST_FILE = LRCameraPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.app.LRCameraPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		782114EC244D9CD5005967EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RC3NK7EXM;
+				INFOPLIST_FILE = LRCameraPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.app.LRCameraPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		782114EE244D9CD5005967EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RC3NK7EXM;
+				INFOPLIST_FILE = LRCameraProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.app.LRCameraProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRCameraPro.app/LRCameraPro";
+			};
+			name = Debug;
+		};
+		782114EF244D9CD5005967EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RC3NK7EXM;
+				INFOPLIST_FILE = LRCameraProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.app.LRCameraProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRCameraPro.app/LRCameraPro";
+			};
+			name = Release;
+		};
+		782114F1244D9CD5005967EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RC3NK7EXM;
+				INFOPLIST_FILE = LRCameraProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.app.LRCameraProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LRCameraPro;
+			};
+			name = Debug;
+		};
+		782114F2244D9CD5005967EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RC3NK7EXM;
+				INFOPLIST_FILE = LRCameraProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.app.LRCameraProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LRCameraPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782114B6244D9CCE005967EF /* Build configuration list for PBXProject "LRCameraPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782114E8244D9CD5005967EF /* Debug */,
+				782114E9244D9CD5005967EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782114EA244D9CD5005967EF /* Build configuration list for PBXNativeTarget "LRCameraPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782114EB244D9CD5005967EF /* Debug */,
+				782114EC244D9CD5005967EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782114ED244D9CD5005967EF /* Build configuration list for PBXNativeTarget "LRCameraProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782114EE244D9CD5005967EF /* Debug */,
+				782114EF244D9CD5005967EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782114F0244D9CD5005967EF /* Build configuration list for PBXNativeTarget "LRCameraProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782114F1244D9CD5005967EF /* Debug */,
+				782114F2244D9CD5005967EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782114B3244D9CCE005967EF /* Project object */;
+}
